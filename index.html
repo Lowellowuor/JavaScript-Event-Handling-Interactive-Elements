@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Computing Interactive Presentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Quantum Computing Presentation!</h1>
+        <p>Click the button to learn more about quantum concepts.</p>
+        <!-- Move the button here -->
+        <button id="showDetailsButton">Show Quantum Explanation</button>
+    </header>
+
+    <section id="content">
+        <div id="concepts">
+            <h2>Key Quantum Concepts</h2>
+            <ul>
+                <li id="qubits">What are Qubits?</li>
+                <li id="superposition">What is Superposition?</li>
+                <li id="entanglement">What is Entanglement?</li>
+            </ul>
+        </div>
+        
+        <div id="details"></div>
+        
+        <form id="feedbackForm">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" required>
+            <button type="submit">Submit Feedback</button>
+        </form>
+        <div id="formFeedback"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
